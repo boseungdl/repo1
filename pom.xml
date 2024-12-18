@@ -269,7 +269,7 @@
                 <source>11</source>  <!-- 소스 코드 버전 -->
                 <target>11</target>  <!-- 컴파일된 클래스 파일 버전 -->
             </configuration>
-        </plugin
+        </plugin>
 
              
         <plugin>
