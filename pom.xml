@@ -258,5 +258,20 @@
         <filtering>false</filtering>
       </resource>
     </resources>
+
+               
+    <plugins>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <version>3.8.1</version>
+            <configuration>
+                <source>11</source>  <!-- 소스 코드 버전 -->
+                <target>11</target>  <!-- 컴파일된 클래스 파일 버전 -->
+            </configuration>
+        </plugin>
+    </plugins>
   </build>
+
+
 </project>
